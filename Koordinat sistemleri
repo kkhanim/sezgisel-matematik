@@ -1,0 +1,13 @@
+Nesneleri geometrik olarak düşünmek istiyorsak, nesnelerin uzayda nerede olduklarını, birbirleriyle ilişkili olduklarını ve ne kadar büyük olduklarını tanımlamanın bir yoluna ihtiyacımız var.
+
+Bunu yapmak için bir koordinat sistemi kullanabiliriz. Doğrusal koordinat sistemlerinin iki özelliği vardır - birimler ve boyutlar. Boyutlar, alanınızdaki konumlarla kaç farklı kombinasyon yapabileceğinize karşılık gelir. Kanonik değişkenler tarafından atıfta bulunulan boyutları sıklıkla göreceğiz.
+x, y, z vb.
+
+Bir boyuttaki tek bir nokta için karşılık gelen diğer boyutlarda sonsuz sayıda nokta vardır. Örneğin, iki boyutlu bir uzayınız varsa ve
+x=1'de x sabiti, y boyutunda seçebileceğiniz sonsuz sayıda nokta vardır. Üç boyutlu bir uzaya sahip olsaydınız ve x'i x=1'de tutsaydınız, y boyutunda seçebileceğiniz sonsuz sayıda nokta vardır ve bundan sonra, z boyutunda seçebileceğiniz sonsuz sayıda nokta vardır.
+
+Dördüncünün üzerindeki boyutları görselleştirmek biraz zor ama model devam ediyor. Eğer iki boyutlu uzay mümkün olan her çizgiden oluşan bir düzlemse ve üç boyutlu uzay mümkün olan her düzlemden oluşan bir hacimse, bunun dört boyutlu uzay için ne anlama geldiğini bir düşünün. Hatta beş boyutlu uzay.
+
+Mantık, n-boyutlu bir uzaya genelleşecek
+
+Basitçe, tüm koordinat sistemlerinin aynı birimleri kullandığını, yani bir boyut boyunca bir adımın hareket ettiğini ve bir sistemi bir boyut başka bir boyut olacak şekilde döndürürseniz, adımların karşılık geleceğini varsayacağız.
